@@ -32,8 +32,8 @@ export default function Layout({ children, home }) {
                             priority
                             src="/images/sarat781.jpg"
                             className={utilStyles.borderCircle}
-                            height={144}
-                            width={144}
+                            height={250}
+                            width={200}
                             alt={name}
                         />
                         <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -46,8 +46,8 @@ export default function Layout({ children, home }) {
                                     priority
                                     src="/images/sarat781.jpg"
                                     className={utilStyles.borderCircle}
-                                    height={108}
-                                    width={108}
+                                    height={250}
+                                    width={200}
                                     alt={name}
                                 />
                             </a>
@@ -64,7 +64,7 @@ export default function Layout({ children, home }) {
             {!home && (
                 <div className={styles.backToHome}>
                     <Link href="/">
-                        <a>← Back to home</a>
+                        <a>← На главную</a>
                     </Link>
                 </div>
             )}
