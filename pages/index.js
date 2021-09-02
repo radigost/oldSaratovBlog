@@ -21,17 +21,18 @@ export default function Home({allPostsData}) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>Этот сайт посвящен проекту восстановления архитектурного плана города Саратова версии 1905 года.
+                <p>Этот сайт посвящен проекту восстановления архитектурного вида города Саратова версии 1905 года в 3d.
                     Более подробно о нем можно прочитать
                     <Link href={`/posts/project-description`}>
                         <a> тут</a>
                     </Link>
 
                 </p>
-                <p>Образец того, как может выглядить просмотр города для браузера можно увидеть
+                <p>Образец того, как может выглядеть просмотр города для браузера можно увидеть
                     <Link href={`/viewer`}>
                         <a> здесь</a>
                     </Link>
+
                 </p>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
