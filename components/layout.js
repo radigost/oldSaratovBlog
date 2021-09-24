@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
                 />
                 <meta
                     property="og:image"
-                    content="https://upload.wikimedia.org/wikipedia/commons/3/3a/Coat_of_Arms_of_Saratov_gubernia_%28Russian_empire%29.png"
+                    content="upload.wikimedia.org/wikipedia/commons/3/3a/Coat_of_Arms_of_Saratov_gubernia_%28Russian_empire%29.png"
                 />
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
