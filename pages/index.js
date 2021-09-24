@@ -21,7 +21,7 @@ export default function Home({allPostsData}) {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingMd}>
-                <p>Этот сайт посвящен проекту восстановления архитектурного вида города Саратова версии 1905 года в 3d.
+                <p>Этот сайт посвящен проекту восстановления старого архитектурного вида города Саратова в 3d.
                     Более подробно о нем можно прочитать
                     <Link href={`/posts/project-description`}>
                         <a> тут</a>
