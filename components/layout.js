@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
                 <link rel="icon" href="/favicon.ico" />
                 <meta
                     name="description"
-                    content="Сайт проекта Виртуальный Старый Саратов"
+                    content="Site of the project Old Saratov in VR"
                 />
                 <meta
                     property="og:image"
