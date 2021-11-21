@@ -29,7 +29,7 @@ export default function Home({allPostsData}) {
 
                 </p>
                 <p>Образец того, как может выглядеть просмотр города для браузера можно увидеть
-                    <Link href={`/viewer`}>
+                    <Link href={`/3dview.html`}>
                         <a> здесь</a>
                     </Link>
 
@@ -43,9 +43,9 @@ export default function Home({allPostsData}) {
                             <Link href={`/posts/${id}`}>
                                 <a>{title}</a>
                             </Link>
-                            <br />
+                            <br/>
                             <small className={utilStyles.lightText}>
-                                <Date dateString={date} />
+                                <Date dateString={date}/>
                             </small>
                         </li>
                     ))}
