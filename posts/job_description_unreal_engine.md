@@ -1,5 +1,5 @@
 ---
-title: 'Описание вакансии Unreal Engine Developer'
+title: 'Описание вакансии'
 date: '2021-10-06'
 ---
 

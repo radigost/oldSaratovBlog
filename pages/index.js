@@ -32,7 +32,7 @@ export default function Home({allPostsData}) {
                     <Link href={`/3dview.html`}>
                         <a> здесь</a>
                     </Link>
-
+                    (приложение на WebAsm, около 60 Мб, придется дождаться загрузки)
                 </p>
             </section>
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
